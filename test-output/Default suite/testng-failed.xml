@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="My_Package.ebay">
+      <class name="My_Package.snapdeal">
         <methods>
-          <include name="tc1"/>
           <include name="setup"/>
           <include name="teardwon"/>
+          <include name="tc1"/>
         </methods>
-      </class> <!-- My_Package.ebay -->
+      </class> <!-- My_Package.snapdeal -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
